@@ -1,0 +1,168 @@
+*,ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-home {
+    background: url('../img/itBrains.jpeg') no-repeat center;
+    background-size: cover;
+}
+.bg-232c36 {
+    background: #232c36;
+}
+.container-1800 {
+    max-width: 1800px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.basis-10 {
+    flex-basis: 10%;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.ai-center {
+    align-items: center;
+}
+.jc-right {
+    justify-content: flex-end;
+}
+.jc-center {
+    justify-content: center;
+}
+.between {
+    justify-content: space-between;
+}
+.decoration-none {
+    text-decoration: none;
+}
+.style-none {
+    list-style: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.overlay{
+    background-color: rgb(97, 96, 96);
+    opacity: 0.7;
+}
+.h100 {
+    height: 100vh;
+}
+.h-70 {
+    height: 70px;
+}
+.w-70 {
+    max-width: 70px;
+}
+.contain {
+    object-fit: contain;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-10 {
+    padding: 10px;
+}
+.color-fff {
+    color: #fff;
+}
+.color-ffbc00 {
+    color: #ffbc00;
+}
+.fs-35 {
+    font-size: 35px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-27 {
+    font-size: 27px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-12 {
+    font-size: 12px;
+}
+.iblock {
+    display: inline-block;
+}
+.b-crimson {
+    border: 1px solid crimson;
+}
+.br-5 {
+    border-radius: 5px;
+}
+.transition {
+    transition: all .3s ease;
+}
+div > a:hover {
+    border: 1px solid #fff;
+    color: crimson;
+}
+li a:hover {
+    color: #ffbc00;
+}
+/* .red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+} */
+
+
+
+
+@media (min-width: 576px) {
+    .fs-sm-27 {
+        font-size: 27px;
+    }
+    .fs-sm-20 {
+        font-size: 20px;
+    }
+
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .fs-lg-35 {
+        font-size: 35px;
+    }
+    .fs-lg-27 {
+        font-size: 27px;
+    }
+    .fs-lg-16 {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 1400px) {
+    
+}

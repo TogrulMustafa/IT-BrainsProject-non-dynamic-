@@ -1,0 +1,127 @@
+:root {
+    --primary-orange: #f9ab00;
+    --primary-red: #ef4035;
+    --primary-grey: #ccc;
+    --primary-black:#111;
+}
+.experience {
+    margin: 3rem auto .5rem;
+    overflow: hidden;
+}
+.experience-title {
+    text-transform: uppercase;
+    color: var(--primary-orange);
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+}
+.experience-item {
+    justify-content: center;
+}
+h3 {
+    color: var(--primary-red);
+}
+.line {
+    position: relative;
+}
+.line::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -1.5px;
+    width: 1px;
+    height: 2000px;
+    background-color: var(--primary-grey);
+}
+.circle-left {
+    display: none;
+}
+.circle-right {
+    position: relative;
+    display: block;
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.circle-right::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -9.5px;
+    width: 7px;
+    height: 7px;
+    border: 5px solid var(--primary-black);
+    background-color: var(--primary-orange);
+    border-radius: 50%;
+    z-index: 2;
+    box-sizing: content-box;
+}
+.experience-content {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+    padding: 0 0 1.5rem 1.5rem;
+}
+
+
+
+
+
+/* Breakpoints */
+
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .circle-left,
+    .circle-lg-right
+    {
+        position: relative;
+        display: block;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .circle-left::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: -7.5px;
+        width: 7px;
+        height: 7px;
+        border: 5px solid var(--primary-black);
+        background-color: var(--primary-orange);
+        border-radius: 50%;
+        z-index: 2;
+        box-sizing: content-box;
+    }
+    .circle-lg-right::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -9.5px;
+        width: 7px;
+        height: 7px;
+        border: 5px solid var(--primary-black);
+        background-color: var(--primary-orange);
+        border-radius: 50%;
+        z-index: 2;
+        box-sizing: content-box;
+    }
+    .circle-right {
+        display: none;
+    }
+    .experience-content {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    
+}
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 1400px) {
+    
+}

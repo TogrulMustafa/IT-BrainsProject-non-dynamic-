@@ -1,0 +1,52 @@
+/* Custom CSS */
+
+img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    outline: 2px solid goldenrod;
+    outline-offset: 5px;
+}
+.ai-center {
+    align-items: center;
+}
+h2 {
+    text-align:center;
+    font-size: 35px;
+    color: goldenrod;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* Breakpoints */
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+    h2 {
+        text-align:left
+    }
+}
+@media (min-width: 992px) {
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1200px) {
+    
+}
+@media (min-width: 1400px) {
+    
+}
